@@ -1,0 +1,27 @@
+base_url = "https://damienstanton.com"
+title = "damienstanton.com"
+compile_sass = true
+highlight_code = true
+build_search_index = true
+check_external_links = true
+
+taxonomies = [
+    {name = "topics", rss = true}
+]
+
+[extra]
+show_word_count = true
+show_reading_time = true
+date_format = "%a %b %e, %Y"
+home = "home"
+sam_menu = [
+    { text = "📚 words", link = "/words" },
+    { text = "👋 about", link = "/about" },
+    { text = "⌨️ code", link = "https://github.com/damienstanton" },
+    { text = "🐦 tweets", link = "https://twitter.com/damienstanton" }
+]
+
+sam_bottom_menu = true
+
+[extra.sam_footer]
+text = "Copyright ©️ 2020 Damien Stanton"
