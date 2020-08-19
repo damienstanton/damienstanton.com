@@ -1,4 +1,4 @@
-base_url = "https://damienstanton.com"
+base_url = "damienstanton.com"
 title = "damienstanton.com"
 compile_sass = true
 highlight_code = true
